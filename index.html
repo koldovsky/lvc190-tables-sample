@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Sample</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Total</th>
+            <th colspan="4">Header</th>
+        </tr>
+        <tr>
+            <th>1</th><th>2</th><th>3</th><th>4</th>
+        </tr>
+        <tr>
+            <td>Sales</td><td>1</td><td>3</td><td>3</td><td>4</td>
+        </tr>
+    </table>
+    <ol type="I" start="10" reversed>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+    <form method="POST" action="https://formspree.io/koldovsky@gmail.com">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">  
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Your email">
+        <br>
+        <label for="phone">Phone number:</label>
+        <input type="text" id="phone" name="phone" pattern="^[0-9]{6}$" 
+           placeholder="6 digits only" title="123456">
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
